@@ -2,7 +2,7 @@ ARG BASE_IMAGE=ghcr.io/canastawiki/canasta-base:1.3.1
 FROM ${BASE_IMAGE} AS base
 
 LABEL maintainers=""
-LABEL org.opencontainers.image.source=https://github.com/CanastaWiki/Canasta
+LABEL org.opencontainers.image.source=https://github.com/Andeandes/Canasta
 
 # Uncomment this if there are any skin or extension patches
 COPY patches/* /tmp/
